@@ -11,6 +11,7 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px
 from Bio import SeqIO
+import Bio.SeqUtils
 from Bio.SeqUtils import GC
 from Bio import pairwise2
 from Bio.pairwise2 import format_alignment
